@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Style chung cho thẻ input */
+.input-wrapper input {
+    border: 1px solid #dbdbdb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.input-wrapper {
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    padding: 8px 20px;
+    background-color: #034C8C;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #034C8C;
+}
+.cursor {
+    cursor: pointer;
+}
+
+.header {
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 30px;
+    color: #034C8C;
+    padding-left: 10%;
+}
+
+.container {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    background-color: #fff;
+    padding-left: 15%;
+}
+
+
+
+.container .input-name-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .input-name-wrapper .input-wrapper {
+    width: 48%;
+}
